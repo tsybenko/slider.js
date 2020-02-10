@@ -1,0 +1,21 @@
+[slider-item].selected {
+	font-weight: bold;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.slider__item {
+	padding: 1em;
+	cursor: pointer;
+}
+
+.slider__item.selected {
+	background-color: #d7d7d7;
+}
